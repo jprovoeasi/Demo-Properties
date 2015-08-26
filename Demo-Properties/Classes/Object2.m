@@ -3,7 +3,7 @@
 //  Demo-Properties
 //
 //  Created by Jonathan Provo on 07/08/15.
-//  Copyright (c) 2015 EASI. All rights reserved.
+//  Copyright (c) 2015. All rights reserved.
 //
 
 #import "Object2.h"
@@ -29,6 +29,10 @@
     
     // setter and getter exist, the property is redeclared in the .m file!
     self.boolean2 = self.boolean2;
+    
+    BOOL theSameBoolean = self.boolean2;
+    BOOL someBoolean = [self boolean2];
+    [self setBoolean2:someBoolean];
 }
 
 @end

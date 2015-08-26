@@ -3,7 +3,7 @@
 //  Demo-Properties
 //
 //  Created by Jonathan Provo on 16/08/15.
-//  Copyright © 2015 EASI. All rights reserved.
+//  Copyright © 2015. All rights reserved.
 //
 
 #import "Object3.h"
